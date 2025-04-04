@@ -646,38 +646,6 @@
             </div>
         </div>
         
-        <div class="question" id="question-52">
-            <p>52- A 29-year-old female presents complaining of weakness in her arms, leading to increasing difficulties at work. On examination she has a bilateral ptosis and loss of the red-reflex in both eyes. Urine testing also reveals glycosuria. What is the most likely diagnosis?</p>
-            <div class="options">
-                <label><input type="radio" name="q52" value="Myotonic dystrophy"> Myotonic dystrophy</label>
-                <label><input type="radio" name="q52" value="Homocystinuria"> Homocystinuria</label>
-                <label><input type="radio" name="q52" value="Multiple sclerosis"> Multiple sclerosis</label>
-                <label><input type="radio" name="q52" value="Myasthenia gravis"> Myasthenia gravis</label>
-                <label><input type="radio" name="q52" value="HIV"> HIV</label>
-            </div>
-        </div>
-        
-        <div class="question" id="question-53">
-            <p>53- A 27-year-old female presents complaining of generalised weakness. Examination of her face reveals bilateral ptosis, dysarthric speech and a slow-relaxing grip. What is the most likely diagnosis?</p>
-            <div class="options">
-                <label><input type="radio" name="q53" value="Myotonic dystrophy"> Myotonic dystrophy</label>
-                <label><input type="radio" name="q53" value="Myasthenia gravis"> Myasthenia gravis</label>
-                <label><input type="radio" name="q53" value="Multiple sclerosis"> Multiple sclerosis</label>
-                <label><input type="radio" name="q53" value="Ataxic telangiectasia"> Ataxic telangiectasia</label>
-                <label><input type="radio" name="q53" value="Friedreich's ataxia"> Friedreich's ataxia</label>
-            </div>
-        </div>
-        
-        <div class="question" id="question-54">
-            <p>54- Each of the following features are seen in myotonic dystrophy, except:</p>
-            <div class="options">
-                <label><input type="radio" name="q54" value="Mild mental impairment"> Mild mental impairment</label>
-                <label><input type="radio" name="q54" value="Round face"> Round face</label>
-                <label><input type="radio" name="q54" value="Frontal balding"> Frontal balding</label>
-                <label><input type="radio" name="q54" value="Myotonia"> Myotonia</label>
-                <label><input type="radio" name="q54" value="Cataracts"> Cataracts</label>
-            </div>
-        </div>
         
         <div class="question" id="question-55">
             <p>55- Which one of the following is least associated with myotonic dystrophy?</p>
@@ -724,7 +692,7 @@
         });
 
         let currentQuestion = 1;
-        const totalQuestions = 55;
+        const totalQuestions = 51;
         let score = 0;
         let timerInterval;
         const answers = {
@@ -778,11 +746,7 @@
             q48: "Ferritin",
             q49: "Dopamine agonist",
             q50: "Ropinirole",
-            q51: "It is three times as common in females",
-            q52: "Myotonic dystrophy",
-            q53: "Myotonic dystrophy",
-            q54: "Round face",
-            q55: "Aortic regurgitation"
+            q51: "It is three times as common in females"
         };
 
         function showQuestion() {
